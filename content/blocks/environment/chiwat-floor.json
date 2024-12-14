@@ -1,0 +1,15 @@
+{
+   type: Floor
+   name: "Охлаждённая вода"
+   variants: 0
+
+   isLiquid: true
+   liquidDrop: chilled-water
+
+   status: none
+   statusDuration: 300
+   speedMultiplier: 0.7
+   drownTime: 180
+
+   cacheLayer: water
+}

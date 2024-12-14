@@ -1,0 +1,15 @@
+{
+   type: Floor
+   name: "Магма"
+   variants: 0
+
+   isLiquid: true
+   liquidDrop: magma
+
+   status: burning
+   statusDuration: 300
+   speedMultiplier: 0.7
+   drownTime: 180
+
+   cacheLayer: water
+}
