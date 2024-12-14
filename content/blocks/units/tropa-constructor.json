@@ -1,0 +1,34 @@
+{
+   "name": "Конструктор Троп",
+   "type": "unitFactory",
+   "health": 900,
+   "size": 3,
+   "category": "units",
+   "requirements": [
+    {"item": "ksilometr", "amount": 350},
+    {"item": "cordis", "amount": 240},
+    {"item": "cryoglass", "amount": 100}
+   ],
+   "plans": [
+    {
+     "unit": "tropa",
+     "requirements": [
+      {"item": "ksilometr", "amount": 20},
+      {"item": "cordis", "amount": 11},
+      {"item": "cryoglass", "amount": 5}
+     ],
+     "time": 420
+    }
+   ]
+   "research": {
+    "parent": "mary-constructor",
+    "requirements": [
+     {"item": "ksilometr", "amount": 1000},
+     {"item": "cordis", "amount": 800},
+     {"item": "cryoglass", "amount": 460}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "molten-ozero"}
+    ]
+   }
+}

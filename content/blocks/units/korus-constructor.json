@@ -1,0 +1,31 @@
+{
+   "name": "Конструктор Корусов",
+   "type": "unitFactory",
+   "health": 800,
+   "size": 3,
+   "category": "units",
+   "requirements": [
+    {"item": "ksilometr", "amount": 350},
+    {"item": "cordis", "amount": 160}
+   ],
+   "plans": [
+    {
+     "unit": "korus",
+     "requirements": [
+      {"item": "ksilometr", "amount": 35},
+      {"item": "cordis", "amount": 16}
+     ],
+     "time": 660
+    }
+   ]
+   "research": {
+    "parent": "core-ksilometr",
+    "requirements": [
+     {"item": "ksilometr", "amount": 1200},
+     {"item": "cordis", "amount": 800}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "coldbeach"}
+    ]
+   }
+}

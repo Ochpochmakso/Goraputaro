@@ -1,0 +1,36 @@
+   "type": "reconstructor",
+   "size": 3,
+   "health": 1200,
+   "constructTime": 360,
+   "name": "Т2 Реконструктор",
+   "consumes": {
+    "items": {
+     "items": [
+      {"item": "ksilometr", "amount": 40},
+      {"item": "cordis", "amount": 30},
+      {"item": "cryoglass", "amount": 15}
+     ]
+    }
+   },
+   "upgrades": [
+    ["korus", "morius"],
+    ["mary", "bastard"],
+    ["tropa", "astro"]
+   ],
+   "requirements": [
+    {"item": "ksilometr", "amount": 500},
+    {"item": "cordis", "amount": 260},
+    {"item": "cryoglass", "amount": 200}
+   ],
+   "category": "units",
+   "research": {
+    "parent": "korus-constructor",
+    "requirements": [
+     {"item": "ksilometr", "amount": 2500},
+     {"item": "cordis", "amount": 1300},
+     {"item": "cryoglass", "amount": 1000}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "cordis-wasteland"}
+    ]
+   }

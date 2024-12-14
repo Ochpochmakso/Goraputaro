@@ -1,0 +1,34 @@
+{
+   "name": "Конструктор Мари",
+   "type": "unitFactory",
+   "health": 900,
+   "size": 3,
+   "category": "units",
+   "requirements": [
+    {"item": "ksilometr", "amount": 360},
+    {"item": "cordis", "amount": 250},
+    {"item": "cryoglass", "amount": 200}
+   ],
+   "plans": [
+    {
+     "unit": "mary",
+     "requirements": [
+      {"item": "ksilometr", "amount": 30},
+      {"item": "cordis", "amount": 14},
+      {"item": "cryoglass", "amount": 7}
+     ],
+     "time": 600
+    }
+   ]
+   "research": {
+    "parent": "korus-constructor",
+    "requirements": [
+     {"item": "ksilometr", "amount": 1310},
+     {"item": "cordis", "amount": 850},
+     {"item": "cryoglass", "amount": 560}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "ultradesert"}
+    ]
+   }
+}
