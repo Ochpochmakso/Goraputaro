@@ -1,0 +1,50 @@
+generator: SerpuloPlanetGenerator
+parent: fesuza
+iconColor: f6ffd4
+orbitRadius: 40
+hasAtmosphere: true,
+updateLighting: true,
+atmosphereRadIn: 0.1,
+atmosphereRadOut: 0.3,
+atmosphereColor: 2e8a15,
+drawOrbit: true,
+
+accessible: true
+alwaysUnlocked: true
+defaultCore: core-ksilometr
+sectorSeed: 171
+startSector: 18
+sectorSize: 2,
+solarSystem: fesuza
+
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+
+cloudMesh: {
+  type: HexSkyMesh
+  planet: goraputaro
+  seed: 6
+  speed: 2
+  radius: 0.05
+  divisions: 6
+  color: fafafa
+  octaves: 2
+  persistence: 0.3
+  scl: 2
+  thresh: 0.45
+}
+
+mesh: {
+    type: NoiseMesh
+    planet: goraputaro
+    seed: 5281919
+    color1: bdfff5
+    color2: ffeebd
+    divisions: 6
+    radius: 0.9
+    octaves: 7
+    persistence: 1
+    scl: 0.75
+    mag: 1.2
+}
