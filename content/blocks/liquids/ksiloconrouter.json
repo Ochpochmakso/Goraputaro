@@ -1,0 +1,17 @@
+{
+   "name": "Ксилометровый жидкостный маршрутизатор",
+   "description": "",
+   "type": "liquidRouter",
+   "health": 100,
+   "size": 1,
+   "category": "liquid",
+   "requirements": [
+    {"item": "ksilometr", "amount": 3}
+   ],
+   "research": {
+    "parent": "ksiloconduit",
+    "requirements": [
+     {"item": "ksilometr", "amount": 30}
+    ]
+   }
+}

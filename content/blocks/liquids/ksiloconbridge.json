@@ -1,0 +1,18 @@
+{
+   "name": "Ксилометровый жидкостный мост",
+   "description": "",
+   "type": "liquidBridge",
+   "health": 100,
+   "size": 1,
+   "category": "liquid",
+   "range": 5,
+   "requirements": [
+    {"item": "ksilometr", "amount": 5}
+   ],
+   "research": {
+    "parent": "ksiloconduit",
+    "requirements": [
+     {"item": "ksilometr", "amount": 50}
+    ]
+   }
+}

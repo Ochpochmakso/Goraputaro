@@ -1,0 +1,20 @@
+{
+  "name": "Ксилометровая помпа",
+  "description": "",
+  "health": 150,
+  "size": 2,
+  "category": "liquid",
+  "type": "pump",
+  "liquidCapacity": 20,
+  "hasLiquids": true,
+  "pumpAmount": 0.1,
+  "requirements": [
+   {"item": "ksilometr", "amount": 50}
+  ],
+  "research": {
+   "parent": "core-ksilometr",
+   "requirements": [
+    {"item": "ksilometr", "amount": 250}
+   ]
+  }
+}

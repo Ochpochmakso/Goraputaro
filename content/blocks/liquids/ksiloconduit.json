@@ -1,0 +1,17 @@
+{
+   "name": "Ксилометровая труба",
+   "description": "",
+   "type": "conduit",
+   "health": 100,
+   "category": "liquid",
+   "bridgeReplacement": "ksiloconbridge",
+   "requirements": [
+    {"item": "ksilometr", "amount": 2}
+   ],
+   "research": {
+    "parent": "core-ksilometr",
+    "requirements": [
+     {"item": "ksilometr", "amount": 20}
+    ]
+   }
+}
