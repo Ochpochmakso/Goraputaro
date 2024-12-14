@@ -1,0 +1,15 @@
+{
+   "name": "coldbeach",
+   "description": "Берега, на которые вы отправились после Места Крушения. Изучите Кордис, Кселон и Охлаждённую воду.",
+   "captureWave": 30,
+   "planet": "goraputaro",
+   "difficulty": 4,
+   "sector": 10,
+   "alwaysUnlocked": true,
+   "research": {
+    "parent": "crash-site",
+    "objectives": [
+     {"type": "sectorComplete", "preset": "crash-site"}
+    ]
+   }
+}

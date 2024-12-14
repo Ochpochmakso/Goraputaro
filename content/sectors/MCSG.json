@@ -1,0 +1,16 @@
+{
+   "name": "mcsg",
+   "description": "Главный центр исследования Гарелиуса. Именно на этом секторе обнаружили жизнь в Гарелиусе и создали Концентратор Гиссов и Нордия. Изучите Концентратор, Нордий, Упаковки Гиссов.",
+   "planet": "goraputaro",
+   "alwaysUnlocked": true,
+   "sector": 25,
+   "captureWave": 40,
+   "difficulty": 5,
+   "research": {
+    "parent": "north-base",
+    "objectives": [
+     {"type": "sectorComplete", "preset": "vupas-islands"},
+     "ultraenergyshard-creator"
+    ]
+   }
+}

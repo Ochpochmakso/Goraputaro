@@ -1,0 +1,16 @@
+{
+   "name": "mineral-forest",
+   "description": "Сектор находящийся на экваторе. Хорошее разнообразие ресурсов, мало места. Сектор отличается своей относительной простотой. Изучите Астро, Психо.",
+   "planet": "goraputaro",
+   "alwaysUnlocked": true,
+   "sector": 56,
+   "captureWave": 25,
+   "difficulty": 5,
+   "research": {
+    "parent": "cordis-wasteland",
+    "objectives": [
+     {"type": "sectorComplete", "preset": "north-base"},
+     "freeze-tower"
+    ]
+   }
+}

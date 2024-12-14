@@ -1,0 +1,16 @@
+{
+   "name": "hot-foothills",
+   "description": "Жаркое предгорье - вход на гору Путаро. Враг не позволит вам легко пройти на гору. Отбейтесь от него и получите доступ к Путаро. Изучите Ювелира, используйте во всю магму и Парники.",
+   "planet": "goraputaro",
+   "alwaysUnlocked": true,
+   "sector": 13,
+   "captureWave": 40,
+   "difficulty": 6,
+   "research": {
+    "parent": "molten-ozero",
+    "objectives": [
+     {"type": "sectorComplete", "preset": "MCSG"},
+     "parnik"
+    ]
+   }
+}

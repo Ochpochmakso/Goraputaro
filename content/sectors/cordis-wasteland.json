@@ -1,0 +1,16 @@
+{
+   "name": "cordis-wasteland",
+   "description": "Пустошь. Много кордиса, немного ксилометрия. Есть озеро обычной и охлаждённой воды, мало магмы. Столкнитесь с Мориусом. Изучите Кордисовый бур, ядро, стены, Капкан, Реконструктор Т2 и Мориуса.",
+   "planet": "goraputaro",
+   "alwaysUnlocked": true,
+   "sector": 38,
+   "captureWave": 35,
+   "difficulty": 5,
+   "research": {
+    "parent": "coldbeach",
+    "objectives": [
+     {"type": "sectorComplete", "preset": "molten-ozero"},
+     "lord"
+    ]
+   }
+}

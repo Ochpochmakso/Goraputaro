@@ -1,0 +1,16 @@
+{
+   "name": "vupas-islands",
+   "description": "Островной комплекс. Достаточно тепло. Нету смысла использовать наземных юнитов. Изучите Т3 реконструктор, Зора.",
+   "planet": "goraputaro",
+   "alwaysUnlocked": true,
+   "sector": 49,
+   "captureWave": 40,
+   "difficulty": 5,
+   "research": {
+    "parent": "mineral-forest",
+    "objectives": [
+     {"type": "sectorComplete", "preset": "mineral-forest"},
+     "psycho"
+    ]
+   }
+}

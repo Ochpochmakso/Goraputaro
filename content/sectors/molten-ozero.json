@@ -1,0 +1,16 @@
+{
+   "name": "molten-ozero",
+   "description": "Горячий сектор. Много магмы, мало охлаждённой воды. Мало пространства для обороны, достаточно сложный сектор. Изучите Лорда, магму, Тропу.",
+   "planet": "goraputaro",
+   "alwaysUnlocked": true,
+   "sector": 45,
+   "captureWave": 35,
+   "difficulty": 5,
+   "research": {
+    "parent": "ultradesert",
+    "objectives": [
+     {"type": "sectorComplete", "preset": "ultradesert"},
+     "nofamius"
+    ]
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "name": "crash-site",
+   "description": "Место, куда неудачно приземлился корабль, на котором были вы...",
+   "planet": "goraputaro",
+   "sector": 18,
+   "research": {
+    "parent": "core-ksilometr"
+   },
+   "captureWave": 25,
+   "difficulty": 3,
+   "alwaysUnlocked": true
+}

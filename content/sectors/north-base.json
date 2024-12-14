@@ -1,0 +1,16 @@
+{
+   "name": "north-base",
+   "description": "Вражеская база на севере. Защищена в разы лучше чем Низины. Захватите её любым способом, ведь здесь открывается Гарелиус. Изучите Гарелиус, блоки из него, Бастард.",
+   "planet": "goraputaro",
+   "alwaysUnlocked": true,
+   "sector": 57,
+   "captureWave": 0,
+   "difficulty": 7,
+   "research": {
+    "parent": "lowlands",
+    "objectives": [
+     {"type": "sectorComplete", "preset": "cordis-wasteland"},
+     "trap"
+    ]
+   }
+}

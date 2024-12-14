@@ -1,0 +1,16 @@
+{
+   "name": "ultradesert",
+   "description": "Сверхпустыня. Немного скучновато, мало жидкостей. Изучите Нофамиус, Мари, Криостекло.",
+   "planet": "goraputaro",
+   "alwaysUnlocked": true,
+   "sector": 24,
+   "captureWave": 30,
+   "difficulty": 5,
+   "research": {
+    "parent": "coldbeach",
+    "objectives": [
+     {"type": "sectorComplete", "preset": "lowlands"},
+     "ziller"
+    ]
+   }
+}
