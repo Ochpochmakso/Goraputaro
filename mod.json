@@ -1,0 +1,10 @@
+{
+   "name": "goraputaro",
+   "displayName": "[green[]]Go[red[]]ra[yellow[]]pu[purple[]]ta[blue[]]ro",
+   "description": "Мод от [purple[]]Ochpoch[green[]]maks",
+   "author": "[purple[]]Ochpoc[green[]]hmaks",
+   "subtitle": "Мод, иногда со сложными картами...",
+   "version": 0.1.5,
+   "minGameVersion": 136,
+   "hidden": true
+}
