@@ -1,0 +1,25 @@
+{
+   "name": "Нордиумовая стена",
+   "description": "",
+   "health": 1600,
+   "size": 2,
+   "type": "wall",
+   "category": "defense",
+   "absorbLasers": true,
+   "requirements": [
+    {"item": "nordium", "amount": 24}
+   ],
+   "research": {
+    "parent": "nordiwall-small",
+    "requirements": [
+     {"item": "nordium", "amount": 120}
+    ],
+    "objectives": [
+     {"type": "onSector", "preset": "MCSG"}
+    ],
+    "immunities": [
+	   	"burning",
+     "melting"
+   	]
+   }
+}

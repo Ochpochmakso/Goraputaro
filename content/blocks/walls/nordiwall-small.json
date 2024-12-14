@@ -1,0 +1,25 @@
+{
+   "name": "Малая Нордиумовая стена",
+   "description": "",
+   "type": "wall",
+   "size": 1,
+   "health": 400,
+   "category": "defense",
+   "absorbLasers": true,
+   "requirements": [
+    {"item": "nordium", "amount": 6}
+   ],
+   "research": {
+    "parent": "corwall-small",
+    "requirements": [
+     {"item": "nordium", "amount": 30}
+    ],
+    "objectives": [
+     {"type": "onSector", "preset": "MCSG"}
+    ],
+    "immunities": [
+	   	"burning",
+     "melting"
+   	]
+   }
+}

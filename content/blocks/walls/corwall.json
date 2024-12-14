@@ -1,0 +1,20 @@
+{
+   "name": "Кордисовая стена",
+   "description": "",
+   "health": 1200,
+   "size": 2,
+   "type": "wall",
+   "category": "defense",
+   "requirements": [
+    {"item": "cordis", "amount": 24}
+   ],
+   "research": {
+    "parent": "corwall-small",
+    "requirements": [
+     {"item": "cordis", "amount": 120}
+    ],
+    "objectives": [
+     {"type": "onSector", "preset": "cordis-wasteland"}
+    ]
+   }
+}

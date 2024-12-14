@@ -1,0 +1,17 @@
+{
+   "name": "Малая Ксилометровая стена",
+   "description": "",
+   "type": "wall",
+   "size": 1,
+   "health": 200,
+   "category": "defense",
+   "requirements": [
+    {"item": "ksilometr", "amount": 6}
+   ],
+   "research": {
+    "parent": "core-ksilometr",
+    "requirements": [
+     {"item": "ksilometr", "amount": 30}
+    ]
+   }
+}
