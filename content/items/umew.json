@@ -1,0 +1,8 @@
+{
+   "name": "Пачка Умевов",
+   "flammability": 0.54,
+   "color": "4cd113"
+   "research": {
+    "parent": "giss"
+   }
+}

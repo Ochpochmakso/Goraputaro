@@ -1,0 +1,8 @@
+{
+   "name": "Криостекло",
+   "color": "c7eaf2",
+   "charge": 0.34
+   "research": {
+    "parent": "ksilometr"
+   }
+}

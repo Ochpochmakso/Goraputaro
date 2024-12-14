@@ -1,0 +1,9 @@
+{
+   "name": "Энергетический снаряд",
+   "description": "",
+   "color": "25e2e6",
+   "charge": 0.78,
+   "research": {
+    "parent": "ksilometr"
+   }
+}

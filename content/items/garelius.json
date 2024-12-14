@@ -1,0 +1,9 @@
+{
+   "name": "Гарелиус",
+   "description": "",
+   "color": "e8c8c8",
+   "hardness": 2,
+   "research": {
+    "parent": "cordis"
+   }
+}

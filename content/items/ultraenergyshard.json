@@ -1,0 +1,9 @@
+{
+   "name": "Сверхзаряженый энергетический снаряд",
+   "description": "",
+   "color": "baf0ff",
+   "charge": 0.94,
+   "research": {
+    "parent": "energyshard"
+   }
+}

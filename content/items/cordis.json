@@ -1,0 +1,10 @@
+{
+   "name": "Кордис",
+   "description": "",
+   "hardness": 1,
+   "color": "a813a6",
+   "flammability": 0.43,
+   "research": {
+    "parent": "ksilometr"
+   }
+}

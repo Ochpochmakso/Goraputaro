@@ -1,0 +1,8 @@
+{
+   "name": "Упаковка Гиссов",
+   "flammability": 0.56,
+   "color": "d10808",
+   "research": {
+    "parent": "garelius"
+   }
+}

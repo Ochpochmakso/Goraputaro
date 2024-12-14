@@ -1,0 +1,7 @@
+{
+   "name": "Нордий",
+   "color": "dbdbdb"
+   "research": {
+    "parent": "garelius"
+   }
+}
