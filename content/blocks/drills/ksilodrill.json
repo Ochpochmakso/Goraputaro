@@ -1,0 +1,19 @@
+{
+   "name": "Ксилометровый бур",
+   "description": "",
+   "health": 250,
+   "size": 2,
+   "type": "drill",
+   "tier": 1,
+   "drillTime": 540,
+   "category": "production",
+   "requirements": [
+    {"item": "ksilometr", "amount": 25}
+   ],
+   "research": {
+    "parent": "core-ksilometr",
+    "requirements": [
+     {"item": "ksilometr", "amount": 250}
+    ]
+   }
+}

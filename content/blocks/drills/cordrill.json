@@ -1,0 +1,24 @@
+{
+   "name": "Кордисовый бур",
+   "description": "",
+   "health": 400,
+   "size": 2,
+   "type": "drill",
+   "tier": 2,
+   "drillTime": 540,
+   "category": "production",
+   "requirements": [
+    {"item": "ksilometr", "amount": 40},
+    {"item": "cordis", "amount": 50}
+   ],
+   "research": {
+    "parent": "ksilodrill",
+    "requirements": [
+     {"item": "ksilometr", "amount": 200},
+     {"item": "cordis", "amount": 250}
+    ],
+    "objectives": [
+     {"type": "onSector", "preset": "cordis-wasteland"}
+    ]
+   }
+}
