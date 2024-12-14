@@ -1,0 +1,8 @@
+{
+   "name": "Охлаждённая вода",
+   "temperature": 0.32,
+   "color": "9cf7f1"
+   "research": {
+    "parent": "core-ksilometr"
+   }
+}

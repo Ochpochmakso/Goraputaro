@@ -1,0 +1,9 @@
+{
+   "name": "Магма",
+   "temperature": 0.78,
+   "viscosity": 0.8
+   "color": "b04c12"
+   "research": {
+    "parent": "chilled-water"
+   }
+}
