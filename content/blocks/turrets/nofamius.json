@@ -1,0 +1,52 @@
+{
+   "name": "Нофамиус",
+   "type": "itemTurret",
+   "health": 700,
+   "size": 2,
+   "category": "turret",
+   "recoil": 5.3,
+   "range": 120,
+   "reload": 70,
+   "ammoTypes": {
+    "sand": {
+     "damage": 100,
+     "speed": 1.5,
+     "width": 30,
+     "height": 30,
+     "type": "basicBulletType",
+     "backColor": "9c7913",
+     "frontColor": "d9a816",
+     "lifetime": 75,
+     "status": "sanded",
+     "statusDuration": 180
+    },
+    "cryoglass": {
+     "damage": 100,
+     "speed": 2.4,
+     "width": 24,
+     "height": 24,
+     "type": "basicBulletType",
+     "frontColor": "d9fffe",
+     "backColor": "92d1d0",
+     "lifetime": 50,
+     "status": "freezing",
+     "statusDuration": 180
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 210},
+    {"item": "cordis", "amount": 130},
+    {"item": "cryoglass", "amount": 70}
+   ],
+   "research": {
+    "parent": "kselon",
+    "requirements": [
+     {"item": "ksilometr", "amount": 1050},
+     {"item": "cordis", "amount": 650},
+     {"item": "cryoglass", "amount": 350}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "ultradesert"}
+    ]
+   }
+}

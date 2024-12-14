@@ -1,0 +1,93 @@
+{
+   "name": "Ювелир",
+   "type": "itemTurret",
+   "category": "turret",
+   "health": 550,
+   "size": 2,
+   "range": 120,
+   "reload": 40,
+   "recoil": 6,
+   "rotateSpeed": 1.2,
+   "outlineRadius": 2,
+   "shootSound": "artillery",
+   "ammoTypes": {
+    "cryoglass": {
+     "damage": 50,
+     "speed": 2.4,
+     "type": "artilleryBulletType",
+     "fragLifeMin": 10,
+     "fragAngle": 0,
+     "fragBullets": 6,
+     "fragRandomSpread": 80,
+     "splashDamage": 40,
+     "splashDamageRadius": 30,
+     "status": "freezing",
+     "statusDuration": 180,
+     "sprite": "diamond-bullet-u",
+     "fragBullet": {
+      "type": "basicBulletType",
+      "speed": 1.2,
+      "damage": 10,
+      "lifetime": 15,
+      "status": "freezing",
+      "statusDuration": 180
+     }
+    },
+    "nordium": {
+     "damage": 60,
+     "speed": 2.2,
+     "type": "artilleryBulletType",
+     "fragLifeMin": 15,
+     "fragAngle": 0,
+     "fragBullets": 6,
+     "fragRandomSpread": 80,
+     "splashDamage": 50,
+     "splashDamageRadius": 35,
+     "sprite": "diamond-bullet-u",
+     "fragBullet": {
+      "type": "basicBulletType",
+      "speed": 1,
+      "damage": 20,
+      "lifetime": 18
+     }
+    },
+    "ultraenergyshard": {
+     "damage": 70,
+     "speed": 2.2,
+     "type": "artilleryBulletType",
+     "fragLifeMin": 15,
+     "fragAngle": 0,
+     "fragBullets": 6,
+     "fragRandomSpread": 80,
+     "splashDamage": 55,
+     "splashDamageRadius": 40,
+     "sprite": "diamond-bullet-u",
+     "frontColor": "62d1f0",
+     "backColor": "49b4d1"
+     "fragBullet": {
+      "type": "basicBulletType",
+      "speed": 1,
+      "damage": 25,
+      "lifetime": 20
+     }
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 380},
+    {"item": "cordis", "amount": 360},
+    {"item": "cryoglass", "amount": 340},
+    {"item": "nordium", "amount": 320}
+   ],
+   "research": {
+    "parent": "psycho",
+    "requirements": [
+     {"item": "ksilometr", "amount": 1900},
+     {"item": "cordis", "amount": 1800},
+     {"item": "cryoglass", "amount": 1700},
+     {"item": "nordium", "amount": 1600}
+    ],
+    "objectives": [
+     {"type": "onSector", "preset": "hot-foothills"}
+    ]
+   }
+}

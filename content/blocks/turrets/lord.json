@@ -1,0 +1,39 @@
+{
+   "name": "Лорд",
+   "health": 1000,
+   "type": "liquidTurret",
+   "size": 4,
+   "range": 200,
+   "category": "turret",
+   "shootSound": "flux",
+   "reload": 0,
+   "rotateSpeed": 1,
+   "ammoTypes": {
+    "magma": {
+     "damage": 5,
+     "width": 10,
+     "type": "ContinuousLaserBulletType",
+     "color": "822611",
+     "status": "burning",
+     "makeFire": false,
+     "shake": 0.5,
+     "statusDuration": 600
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 250},
+    {"item": "cordis", "amount": 180},
+    {"item": "cryoglass", "amount": 140}
+   ],
+   "research": {
+    "parent": "nofamius",
+    "requirements": [
+     {"item": "ksilometr", "amount": 1250},
+     {"item": "cordis", "amount": 900},
+     {"item": "cryoglass", "amount": 700}
+    ],
+    "objectives": [
+     {"type": "onSector", "preset": "molten-ozero"}
+    ]
+   }
+}

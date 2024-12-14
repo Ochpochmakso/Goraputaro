@@ -1,0 +1,70 @@
+{
+   "name": "Психо",
+   "health": 1000,
+   "type": "itemTurret",
+   "size": 3,
+   "range": 175,
+   "category": "turret",
+   "shoot": {
+    "shots": 6,
+    "shotDelay": 5
+   },
+   "outlineRadius": 0,
+   "reload": 140,
+   "inaccuracy": 15,
+   "ammoTypes": {
+    "cryoglass": {
+     "damage": 100,
+     "speed": 1.5,
+     "width": 7,
+     "height": 7,
+     "type": "basicBulletType",
+     "lifetime": 105
+    },
+    "ultraenergyshard": {
+     "damage": 160,
+     "speed": 1.5,
+     "width": 9,
+     "height": 9,
+     "type": "basicBulletType",
+     "frontColor": "62d1f0",
+     "backColor": "49b4d1"
+     "lifetime": 105
+    }
+    "garelius": {
+     "damage": 150,
+     "speed": 1.5,
+     "width": 8,
+     "height": 8,
+     "type": "basicBulletType",
+     "lifetime": 105
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 240},
+    {"item": "cordis", "amount": 230},
+    {"item": "cryoglass", "amount": 210},
+    {"item": "garelius", "amount": 200}
+   ],
+   "research": {
+    "parent": "kselon",
+    "requirements": [
+     {"item": "ksilometr", "amount": 1200},
+     {"item": "cordis", "amount": 1150},
+     {"item": "cryoglass", "amount": 1050},
+     {"item": "garelius", "amount": 1000}
+    ],
+    "consumes": {
+     "liquid": {
+      "liquid": "chilled-water",
+      "amount": 0.3,
+      "booster": true,
+      "update": true,
+      "optional": true
+     }
+    },
+    "objectives": [
+     {"type": "sectorComplete", "preset": "mineral-forest"}
+    ]
+   }
+}

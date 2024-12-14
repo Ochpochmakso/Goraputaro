@@ -1,0 +1,41 @@
+{
+   "name": "Горди",
+   "description": "",
+   "health": 500,
+   "size": 1,
+   "type": "itemTurret",
+   "range": 160,
+   "reload": 40,
+   "recoil": 2.5,
+   "outlineRadius": 2,
+   "ammoTypes": {
+    "energyshard": {
+     "damage": 50,
+     "speed": 1.8,
+     "width": 20,
+     "height": 20,
+     "type": "missileBulletType",
+     "lifetime": 80
+    },
+    "ultraenergyshard": {
+     "damage": 100,
+     "speed": 1.8,
+     "width": 20,
+     "height": 20,
+     "type": "missileBulletType",
+     "frontColor": "62d1f0",
+     "backColor": "49b4d1"
+     "lifetime": 80
+    }
+   }
+   "category": "turret",
+   "requirements": [
+    {"item": "ksilometr", "amount": 60}
+   ],
+   "research": {
+    "parent": "core-ksilometr",
+    "requirements": [
+     {"item": "ksilometr", "amount": 310}
+    ]
+   }
+}

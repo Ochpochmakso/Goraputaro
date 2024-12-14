@@ -1,0 +1,48 @@
+{
+   "name": "Лучезарность",
+   "type": "itemTurret",
+   "health": 750,
+   "category": "turret",
+   "size": 3,
+   "outlineRadius": 2,
+   "range": 240,
+   "reload": 6,
+   "shootSound": "artillery",
+   "inaccuracy": 15,
+   "rotateSpeed": 1.5,
+   "consumes": {
+    "liquids": {
+     "liquids": [
+      {"liquid": "chilled-water", "amount": 0.5}
+     ]
+    }
+   },
+   "ammoTypes": {
+    "cryoglass": {
+     "damage": 60,
+     "type": "basicBulletType",
+     "width": 8,
+     "height": 60,
+     "speed": 2,
+     "lifetime": 110
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 400},
+    {"item": "cordis", "amount": 380},
+    {"item": "cryoglass", "amount": 360},
+    {"item": "nordium", "amount": 320}
+   ],
+   "research": {
+    "parent": "lord",
+    "requirements": [
+     {"item": "ksilometr", "amount": 2000},
+     {"item": "cordis", "amount": 1900},
+     {"item": "cryoglass", "amount": 1800},
+     {"item": "nordium", "amount": 1600}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "hot-foothills"}
+    ]
+   }
+}

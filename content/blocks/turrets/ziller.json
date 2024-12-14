@@ -1,0 +1,64 @@
+{
+   "name": "Зиллер",
+   "description": "",
+   "health": 900,
+   "size": 5,
+   "range": 180,
+   "type": "itemTurret",
+   "category": "turret",
+   "reload": 240,
+   "recoil": 10,
+   "rotateSpeed": 0.9,
+   "targetAir": false,
+   "ammoTypes": {
+    "ksilometr": {
+     "damage": 250,
+     "speed": 1.8,
+     "width": 20,
+     "height": 20,
+     "lifetime": 90,
+     "type": "missileBulletType"
+    },
+    "cordis": {
+     "damage": 500,
+     "speed": 1.8,
+     "width": 20,
+     "height": 20,
+     "lifetime": 90,
+     "type": "missileBulletType"
+    },
+    "cryoglass": {
+     "damage": 800,
+     "speed": 2.0,
+     "width": 15,
+     "height": 15,
+     "lifetime": 70,
+     "type": "missileBulletType",
+     "status": "freezing",
+     "statusDuration": 240
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 500},
+    {"item": "cordis", "amount": 420}
+   ],
+   "research": {
+    "parent": "kselon",
+    "requirements": [
+     {"item": "ksilometr", "amount": 2500},
+     {"item": "cordis", "amount": 2100}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "lowlands"}
+    ]
+   },
+   "consumes": {
+    "liquid": {
+     "liquid": "chilled-water",
+     "amount": 0.3,
+     "booster": true,
+     "update": true,
+     "optional": true
+    }
+   }
+}

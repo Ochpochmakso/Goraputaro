@@ -1,0 +1,36 @@
+{
+   "name": "Замороженная башня",
+   "health": 550,
+   "size": 2,
+   "range": 210,
+   "reload": 25,
+   "type": "itemTurret",
+   "category": "turret",
+   "shootSound": "bolt",
+   "ammoTypes": {
+    "cryoglass": {
+     "damage": 95,
+     "width": 10,
+     "length": 180,
+     "status": "freezing",
+     "statusDuration": 600,
+     "type": "laserBulletType"
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 670},
+    {"item": "cordis", "amount": 450},
+    {"item": "cryoglass", "amount": 550}
+   ],
+   "research": {
+    "parent": "lord",
+    "requirements": [
+     {"item": "ksilometr", "amount": 3350},
+     {"item": "cordis", "amount": 2250},
+     {"item": "cryoglass", "amount": 2750}
+    ],
+    "objectives": [
+     {"type": "onSector", "preset": "north-base"}
+    ]
+   }
+}

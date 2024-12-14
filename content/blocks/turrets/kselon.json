@@ -1,0 +1,68 @@
+{
+   "name": "Кселон",
+   "description": "",
+   "type": "itemTurret",
+   "health": 700,
+   "size": 2,
+   "range": 140,
+   "reload": 60,
+   "category": "turret",
+   "outlineRadius": 2,
+   "shoot": {
+    "shots": 3,
+    "shotDelay": 5
+   },
+   "ammoTypes": {
+    "ksilometr": {
+     "damage": 30,
+     "speed": 2.3,
+     "type": "basicBulletType",
+     "lifetime": 60
+    },
+    "cordis": {
+     "damage": 60,
+     "speed": 2.3,
+     "type": "basicBulletType",
+     "lifetime": 60
+    },
+    "ultraenergyshard": {
+     "damage": 190,
+     "speed": 2.6,
+     "type": "basicBulletType",
+     "lifetime": 50,
+     "frontColor": "62d1f0",
+     "backColor": "49b4d1"
+    },
+    "cryoglass": {
+     "damage": 180,
+     "speed": 2.6,
+     "type": "basicBulletType",
+     "lifetime": 50,
+     "status": "freezing",
+     "statusDuration": 180
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 120},
+    {"item": "cordis", "amount": 50}
+   ],
+   "research": {
+    "parent": "gordy",
+    "requirements": [
+     {"item": "ksilometr", "amount": 600},
+     {"item": "cordis", "amount": 100}
+    ],
+    "objectives": [
+     {"type": "onSector", "preset": "coldbeach"}
+    ]
+   },
+   "consumes": {
+    "liquid": {
+     "liquid": "chilled-water",
+     "amount": 0.3,
+     "booster": true,
+     "update": true,
+     "optional": true
+    }
+   }
+}

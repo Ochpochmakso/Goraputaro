@@ -1,0 +1,21 @@
+{
+   "name": "Бессмысленность",
+   "health": 640,
+   "type": "itemTurret",
+   "inaccuracy": 360,
+   "range": 200,
+   "size": 3,
+   "category": "turret",
+   "ammoTypes": {
+    "ksilometr": {
+     "damage": 20,
+     "speed": 2.5,
+     "lifetime": 80,
+     "type": "basicBulletType"
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 120},
+    {"item": "cordis", "amount": 60}
+   ]
+}
