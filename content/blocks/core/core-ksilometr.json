@@ -1,0 +1,23 @@
+{
+   "name": "Ксилометровое ядро",
+   "description": "",
+   "health": 1500,
+   "size": 3,
+   "type": "CoreBlock",
+   "unitCapModifer": 6,
+   "isFirstTier": true,
+   "category": "effect",
+   "itemCapacity": 2400,
+   "incinerateNonBuildable": true,
+   "unitType": "alpha",
+   "requirements": [
+    {"item": "ksilometr", "amount": 1500}
+   ],
+   "research": {
+    "root": true,
+    "name": "Горапутаро",
+    "planet": "goraputaro",
+    "requiresUnlock": true
+   },
+   "alwaysUnlocked": true
+}

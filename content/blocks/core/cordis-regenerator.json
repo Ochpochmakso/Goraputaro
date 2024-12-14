@@ -1,0 +1,36 @@
+{
+   "name": "Кордисовый регенератор",
+   "description": "",
+   "type": "mendProjector",
+   "size": 2,
+   "reload": 60,
+   "range": 120,
+   "regen": 1.2,
+   "phaseBoost": 0
+   "phaseRangeBoost": 0
+   "requirements": [
+    {"item": "cryoglass", "amount": 20},
+    {"item": "cordis", "amount": 40},
+    {"item": "ksilometr", "amount": 50},
+   ],
+   "consumes": {
+    "liquids": {
+     "liquids": [
+      {"liquid": "water", "amount": 0.6},
+      {"liquid": "chilled-water", "amount": 0.5}
+     ]
+    }
+   }
+   "research": {
+    "parent": "core-ksilometr",
+    "requirements": [
+     {"item": "cryoglass", "amount": 100},
+     {"item": "cordis", "amount": 200},
+     {"item": "ksilometr", "amount": 250},
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "ultradesert"}
+    ]
+   },
+   "category": "effect"
+}

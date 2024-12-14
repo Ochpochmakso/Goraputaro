@@ -1,0 +1,27 @@
+{
+   "name": "Кордисовое ядро",
+   "description": "",
+   "health": 2500,
+   "size": 3,
+   "type": "CoreBlock",
+   "isFirstTier": false,
+   "category": "effect",
+   "unitCapModifer": 8,
+   "itemCapacity": 3400,
+   "incinerateNonBuildable": true,
+   "unitType": "alpha",
+   "requirements": [
+    {"item": "ksilometr", "amount": 1500},
+    {"item": "cordis", "amount": 1000}
+   ],
+   "research": {
+    "parent": "core-ksilometr",
+    "requirements": [
+     {"item": "ksilometr", "amount": 7500},
+     {"item": "cordis", "amount": 5000}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "cordis-wasteland"}
+    ]
+   }
+}
