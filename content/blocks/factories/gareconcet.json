@@ -1,0 +1,42 @@
+{
+   "name": "Концентратор Гиссов и Нордия",
+   "type": "genericCrafter",
+   "category": "crafting",
+   "size": 3,
+   "outputItems": [
+    {"item": "nordium", "amount": 1},
+    {"item": "giss", "amount": 1}
+   ]
+   "consumes": {
+    "liquids": {
+     "liquids": [
+      {"liquid": "chilled-water", "amount": 0.5}
+     ]
+    },
+    "items": {
+     "items": [
+      {"item": "garelius", "amount": 2},
+      {"item": "cryoglass", "amount": 1}
+     ]
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 140},
+    {"item": "cordis", "amount": 160},
+    {"item": "cryoglass", "amount": 180},
+    {"item": "garelius", "amount": 170}
+   ],
+   "research": {
+    "parent": "cryoglass-crafter",
+    "requirements": [
+     {"item": "ksilometr", "amount": 700},
+     {"item": "cordis", "amount": 800},
+     {"item": "cryoglass", "amount": 900},
+     {"item": "garelius", "amount": 850}
+    ],
+    "objectives": [
+     {"type": "onSector", "preset": "MCSG"}
+     "ultraenergyshard-creator"
+    ]
+   }
+}

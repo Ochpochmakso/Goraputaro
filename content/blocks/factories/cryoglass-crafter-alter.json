@@ -1,0 +1,35 @@
+{
+   "name": "Альтернативный крафтер криостекла",
+   "type": "genericCrafter",
+   "outputItem": {"item": "cryoglass", "amount": 1},
+   "health": 1100,
+   "category": "crafting",
+   "size": 2,
+   "consumes": {
+    "items": {
+     "items": [
+      {"item": "sand", "amount": 1}
+     ]
+    },
+    "liquids": {
+     "liquids": [
+      {"liquid": "magma", "amount": 0.5}
+     ]
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 150},
+    {"item": "cordis", "amount": 100}
+   ],
+   "research": {
+    "parent": "cryoglass-crafter",
+    "requirements": [
+     {"item": "ksilometr", "amount": 550},
+     {"item": "cordis", "amount": 320},
+     {"item": "cryoglass", "amount": 210}
+    ],
+    "objectives": [
+     {"type": "onSector", "preset": "molten-ozero"}
+    ]
+   }
+}

@@ -1,0 +1,27 @@
+{
+   "name": "Пылесборник",
+   "health": 540,
+   "size": 3,
+   "type": "genericCrafter",
+   "category": "crafting",
+   "outputItem": {"item": "sand", "amount": 1},
+   "craftTime": 360,
+   "requirements": [
+    {"item": "ksilometr", "amount": 200},
+    {"item": "cordis", "amount": 180},
+    {"item": "cryoglass", "amount": 160},
+    {"item": "nordium", "amount": 140}
+   ],
+   "research": {
+    "parent": "parnik",
+    "requirements": [
+     {"item": "ksilometr", "amount": 1000},
+     {"item": "cordis", "amount": 900},
+     {"item": "cryoglass", "amount": 800},
+     {"item": "nordium", "amount": 700}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "hot-foothills"}
+    ]
+   }
+}

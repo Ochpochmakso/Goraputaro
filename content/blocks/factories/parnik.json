@@ -1,0 +1,26 @@
+{
+   "name": "Парник",
+   "size": 2,
+   "health": 250,
+   "type": "genericCrafter",
+   "category": "crafting",
+   "outputLiquid": {"liquid": "water", "amount": 0.16},
+   "requirements": [
+    {"item": "ksilometr", "amount": 150},
+    {"item": "cordis", "amount": 140},
+    {"item": "cryoglass", "amount": 130},
+    {"item": "nordium", "amount": 120}
+   ],
+   "research": {
+    "parent": "gareconcet",
+    "requirements": [
+     {"item": "ksilometr", "amount": 750},
+     {"item": "cordis", "amount": 700},
+     {"item": "cryoglass", "amount": 650},
+     {"item": "nordium", "amount": 600}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "MCSG"}
+    ]
+   }
+}

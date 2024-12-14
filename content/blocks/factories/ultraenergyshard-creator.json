@@ -1,0 +1,35 @@
+{
+   "name": "ССЭС",
+   "description": "",
+   "health": 1000,
+   "size": 3,
+   "outputItem": {"item": "ultraenergyshard", "amount": 1},
+   "category": "crafting",
+   "type": "genericCrafter",
+   "consumes": {
+    "items": {
+     "items": [
+      {"item": "energyshard", "amount": 1},
+      {"item": "cryoglass", "amount": 1}
+     ]
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 150},
+    {"item": "cordis", "amount": 120},
+    {"item": "cryoglass", "amount": 100},
+    {"item": "garelius", "amount": 80}
+   ],
+   "research": {
+    "parent": "energyshard-creator",
+    "requirements": [
+     {"item": "ksilometr", "amount": 750},
+     {"item": "cordis", "amount": 600},
+     {"item": "cryoglass", "amount": 500},
+     {"item": "garelius", "amount": 400}
+    ],
+    "objectives": [
+     {"type": "onSector", "preset": "mineral-forest"}
+    ]
+   }
+}

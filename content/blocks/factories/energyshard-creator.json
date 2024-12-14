@@ -1,0 +1,30 @@
+{
+   "name": "Сборщик энергетических снарядов",
+   "description": "",
+   "health": 1000,
+   "size": 3,
+   "outputItem": {"item": "energyshard", "amount": 1},
+   "category": "crafting",
+   "type": "genericCrafter",
+   "consumes": {
+    "items": {
+     "items": [
+      {"item": "ksilometr", "amount": 1}
+     ]
+    },
+    "liquids": {
+     "liquids": [
+      {"liquid": "water", "amount": 1}
+     ]
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 100}
+   ],
+   "research": {
+    "parent": "core-ksilometr",
+    "requirements": [
+     {"item": "ksilometr", "amount": 500}
+    ]
+   }
+}

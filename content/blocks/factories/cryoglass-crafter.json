@@ -1,0 +1,34 @@
+{
+   "name": "Крафтер криостекла",
+   "type": "genericCrafter",
+   "outputItem": {"item": "cryoglass", "amount": 1},
+   "health": 1100,
+   "category": "crafting",
+   "size": 2,
+   "consumes": {
+    "items": {
+     "items": [
+      {"item": "sand", "amount": 1}
+     ]
+    },
+    "liquids": {
+     "liquids": [
+      {"liquid": "chilled-water", "amount": 0.5}
+     ]
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 110},
+    {"item": "cordis", "amount": 60}
+   ],
+   "research": {
+    "parent": "energyshard-creator",
+    "requirements": [
+     {"item": "ksilometr", "amount": 550},
+     {"item": "cordis", "amount": 320}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "ultradesert"}
+    ]
+   }
+}

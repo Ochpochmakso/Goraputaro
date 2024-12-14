@@ -1,0 +1,38 @@
+{
+   "name": "Охладитель",
+   "health": 500,
+   "outputLiquid": {"liquid": "chilled-water", "amount": 1},
+   "size": 2,
+   "category": "crafting",
+   "type": "genericCrafter",
+   "consumes": {
+    "liquids": {
+     "liquids": [
+      {"liquid": "water", "amount": 1}
+     ]
+    },
+    "items": {
+     "items": [
+      {"item": "cryoglass", "amount": 1}
+     ]
+    }
+   },
+   "requirements": [
+    {"item": "ksilometr", "amount": 80},
+    {"item": "cordis", "amount": 65},
+    {"item": "cryoglass", "amount": 50},
+    {"item": "garelius", "amount": 45}
+   ],
+   "research": {
+    "parent": "energyshard-creator",
+    "requirements": [
+     {"item": "ksilometr", "amount": 400},
+     {"item": "cordis", "amount": 325},
+     {"item": "cryoglass", "amount": 250},
+     {"item": "garelius", "amount": 225}
+    ],
+    "objectives": [
+     {"type": "onSector", "preset": "north-base"}
+    ]
+   }
+}
