@@ -1,0 +1,30 @@
+{
+   "name": "Тропа",
+   "health": 450,
+   "speed": 1.3,
+   "type": "flying",
+   "flying": true,
+   "targetAir": true,
+   "hitSize": 8,
+   "outlineColor": "292929",
+   "weapons": [
+    {
+     "name": "tropa-gun1",
+     "reload": 40,
+     "bullet": {
+      "damage": 25,
+      "speed": 1.5,
+      "width": 7,
+      "height": 7,
+      "type": "basicBulletType"
+     },
+     "type": "weapon"
+    }
+   ],
+   "research": {
+    "parent": "tropa-constructor",
+    "requirements": [
+     {"item": "cryoglass", "amount": 0}
+    ]
+   }
+}

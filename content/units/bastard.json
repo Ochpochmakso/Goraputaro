@@ -1,0 +1,35 @@
+{
+   "name": "Бастард",
+   "health": 600,
+   "type": "hover",
+   "speed": 0.75,
+   "armor": 4,
+   "targetAir": false,
+   "range": 60,
+   "outlineColor": "292929",
+   "weapons": [
+    {
+     "name": "bastard-laser1",
+     "reload": 8,
+     "shootSound": "bolt",
+     "bullet": {
+      "damage": 10,
+      "width": 5,
+      "length": 60,
+      "type": "LaserBulletType",
+      "status": none,
+      "lifetime": 20
+     },
+     "type": "Weapon"
+    }
+   ],
+   "research": {
+    "parent": "mary",
+    "requirements": [
+     {"item": "cryoglass", "amount": 0}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "north-base"}
+    ]
+   }
+}

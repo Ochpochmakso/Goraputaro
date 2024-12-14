@@ -1,0 +1,36 @@
+{
+   "name": "Зора",
+   "health": 1000,
+   "flying": false,
+   "targetAir": true,
+   "speed": 0.5,
+   "type": "mech",
+   "hitSize": 13,
+   "outlineColor": "292929",
+   "weapons": [
+    {
+     "name": "zora-gun1",
+     "x": -10,
+     "top": true,
+     "reload": 80,
+     "recoil": 10,
+     "bullet": {
+      "damage": 55,
+      "speed": 1.4,
+      "width": 20,
+      "height": 20,
+      "type": "basicBulletType",
+      "lifetime": 110
+     }
+    }
+   ],
+   "research": {
+    "parent": "morius",
+    "requirements": [
+     {"item": "garelius", "amount": 0}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "vupas-islands"}
+    ]
+   }
+}

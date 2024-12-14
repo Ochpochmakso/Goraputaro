@@ -1,0 +1,36 @@
+{
+   "name": "Астро",
+   "health": 850,
+   "speed": 1.4,
+   "type": "flying",
+   "flying": true,
+   "targetAir": true,
+   "hitSize": 10,
+   "outlineColor": "292929",
+   "weapons": [
+    {
+     "name": "astro-gun1",
+     "x": 0,
+     "top": true,
+     "reload": 70,
+     "bullet": {
+      "damage": 70,
+      "speed": 1.3,
+      "width": 10,
+      "height": 10,
+      "type": "basicBulletType",
+      "lifetime": 60
+     },
+     "type": "weapon"
+    }
+   ],
+   "research": {
+    "parent": "tropa",
+    "requirements": [
+     {"item": "cryoglass", "amount": 0}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "mineral-forest"}
+    ]
+   }
+}

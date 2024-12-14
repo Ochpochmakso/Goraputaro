@@ -1,0 +1,57 @@
+{
+   "name": "Мориус",
+   "health": 800,
+   "flying": false,
+   "targetAir": false,
+   "speed": 0.9,
+   "type": "mech",
+   "outlineColor": "292929",
+   "weapons": [
+    {
+     "name": "morius-gun1",
+     "x": -5,
+     "top": true,
+     "reload": 40,
+     "recoil": 5,
+     "shoot": {
+      "shots": 2,
+      "shotDelay": 10
+     },
+     "bullet": {
+      "damage": 25,
+      "speed": 1.4,
+      "width": 10,
+      "height": 10,
+      "type": "basicBulletType",
+      "lifetime": 70
+     }
+    },
+    {
+     "name": "morius-gun2",
+     "reload": 180,
+     "recoil": 10,
+     "x": 0,
+     "bullet": {
+      "damage": 50,
+      "speed": 1.7,
+      "width": 12,
+      "height": 12,
+      "frontColor": "f2933f",
+      "backColor": "cf7527",
+      "status": "blasted",
+      "statusDuration": 300,
+      "type": "basicBulletType",
+      "lifetime": 70
+     }
+    }
+   ],
+   "research": {
+    "parent": "korus",
+    "requirements": [
+     {"item": "cryoglass", "amount": 0}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "cordis-wasteland"}
+    ]
+   }
+}

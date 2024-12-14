@@ -1,0 +1,35 @@
+{
+   "name": "Мари",
+   "health": 200,
+   "type": "mech",
+   "speed": 0.7,
+   "armor": 2,
+   "targetAir": false,
+   "range": 40,
+   "outlineColor": "292929",
+   "weapons": [
+    {
+     "name": "mary-laser1",
+     "reload": 5,
+     "shootSound": "bolt",
+     "bullet": {
+      "damage": 5,
+      "width": 5,
+      "length": 40,
+      "type": "LaserBulletType",
+      "status": none,
+      "lifetime": 20
+     },
+     "type": "Weapon"
+    }
+   ],
+   "research": {
+    "parent": "mary-constructor",
+    "requirements": [
+     {"item": "cryoglass", "amount": 0}
+    ],
+    "objectives": [
+     {"type": "sectorComplete", "preset": "ultradesert"}
+    ]
+   }
+}

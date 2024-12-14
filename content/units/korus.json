@@ -1,0 +1,30 @@
+{
+   "name": "Корус",
+   "health": 400,
+   "hitSize": 14,
+   "armor": 1.5,
+   "type": "mech",
+   "targetAir": false,
+   "outlineColor": "292929",
+   "weapons": [
+    {
+     "name": "korus-weapon1",
+     "reload": 35,
+     "recoil": 3,
+     "bullet": {
+      "damage": 15,
+      "speed": 1.35,
+      "type": "basicBulletType",
+      "lifetime": 80
+     }
+     "type": "weapon"
+    }
+   ],
+   "research": {
+    "parent": "korus-constructor",
+    "requirements": [
+     {"item": "ksilometr", "amount": 100},
+     {"item": "cordis", "amount": 50}
+    ]
+   }
+}
