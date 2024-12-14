@@ -1,0 +1,17 @@
+{
+   "name": "Ксилометровый распределитель",
+   "description": "",
+   "type": "router",
+   "size": 2,
+   "itemCapacity": 1,
+   "hasItems": true,
+   "requirements": [
+    {"item": "ksilometr", "amount": 20}
+   ]
+   "research": {
+    "parent": "ksilorouter",
+    "requirements": [
+     {"item": "ksilometr", "amount": 100}
+    ]
+   }
+}

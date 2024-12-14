@@ -1,0 +1,17 @@
+{
+   "name": "Ксилометровый перекрёсток",
+   "health": 100,
+   "type": "junction",
+   "itemCapacity": 1,
+   "category": "distribution",
+   "size": 1,
+   "requirements": [
+    {"item": "ksilometr", "amount": 15}
+   ],
+   "research": {
+    "parent": "ksiloconveyor",
+    "requirements": [
+     {"item": "ksilometr", "amount": 75}
+    ]
+   }
+}

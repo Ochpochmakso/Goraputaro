@@ -1,0 +1,17 @@
+{
+   "name": "Ксилометровый маршрутизатор",
+   "description": "",
+   "type": "router",
+   "size": 1,
+   "itemCapacity": 1,
+   "hasItems": true,
+   "requirements": [
+    {"item": "ksilometr", "amount": 5}
+   ]
+   "research": {
+    "parent": "ksiloconveyor",
+    "requirements": [
+     {"item": "ksilometr", "amount": 10}
+    ]
+   }
+}

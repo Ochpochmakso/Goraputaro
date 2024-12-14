@@ -1,0 +1,17 @@
+{
+   "name": "Ксилометровый мост",
+   "type": "ductBridge",
+   "health": 100,
+   "requirements": [
+    {"item": "ksilometr", "amount": 23}
+   ],
+   "range": 6,
+   "category": "distribution",
+   "speed": 4,
+   "research": {
+    "parent": "ksilojunction",
+    "requirements": [
+     {"item": "ksilometr", "amount": 115}
+    ]
+   }
+}
