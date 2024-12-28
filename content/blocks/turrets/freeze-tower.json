@@ -3,7 +3,7 @@
    "health": 550,
    "size": 2,
    "range": 210,
-   "reload": 25,
+   "reload": 40,
    "type": "itemTurret",
    "category": "turret",
    "shootSound": "bolt",
