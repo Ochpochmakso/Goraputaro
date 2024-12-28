@@ -9,7 +9,7 @@
    "category": "effect",
    "itemCapacity": 2400,
    "incinerateNonBuildable": true,
-   "unitType": "alpha",
+   "unitType": "maor",
    "requirements": [
     {"item": "ksilometr", "amount": 1500}
    ],

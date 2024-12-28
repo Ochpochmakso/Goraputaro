@@ -9,7 +9,7 @@
    "unitCapModifer": 8,
    "itemCapacity": 3400,
    "incinerateNonBuildable": true,
-   "unitType": "alpha",
+   "unitType": "maor",
    "requirements": [
     {"item": "ksilometr", "amount": 1500},
     {"item": "cordis", "amount": 1000}
