@@ -5,7 +5,7 @@
    "size": 2,
    "type": "drill",
    "tier": 2,
-   "drillTime": 540,
+   "drillTime": 480,
    "category": "production",
    "requirements": [
     {"item": "ksilometr", "amount": 40},
