@@ -16,7 +16,7 @@
      "speed": 1.8,
      "width": 20,
      "height": 20,
-     "lifetime": 90,
+     "lifetime": 180,
      "type": "missileBulletType"
     },
     "cordis": {
@@ -24,7 +24,7 @@
      "speed": 1.8,
      "width": 20,
      "height": 20,
-     "lifetime": 90,
+     "lifetime": 180,
      "type": "missileBulletType"
     },
     "cryoglass": {
@@ -32,7 +32,7 @@
      "speed": 2.0,
      "width": 15,
      "height": 15,
-     "lifetime": 70,
+     "lifetime": 180,
      "type": "missileBulletType",
      "status": "freezing",
      "statusDuration": 240

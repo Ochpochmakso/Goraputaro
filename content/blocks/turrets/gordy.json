@@ -15,7 +15,7 @@
      "width": 20,
      "height": 20,
      "type": "missileBulletType",
-     "lifetime": 80
+     "lifetime": 120
     },
     "ultraenergyshard": {
      "damage": 100,
@@ -25,7 +25,7 @@
      "type": "missileBulletType",
      "frontColor": "62d1f0",
      "backColor": "49b4d1"
-     "lifetime": 80
+     "lifetime": 120
     }
    }
    "category": "turret",
