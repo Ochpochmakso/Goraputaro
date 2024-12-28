@@ -15,7 +15,7 @@
     {
      "name": "yoshi-laser1",
      "reload": 30,
-     "shootSound": "bolt",
+     "shootSound": "laser",
      "bullet": {
       "damage": 50,
       "width": 10,

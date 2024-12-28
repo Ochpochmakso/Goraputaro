@@ -13,6 +13,7 @@
      "x": -10,
      "top": true,
      "reload": 80,
+     "shootSound": "artillery",
      "recoil": 10,
      "bullet": {
       "damage": 55,

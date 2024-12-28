@@ -1,0 +1,42 @@
+{
+   "name": "Маор",
+   "health": 320,
+   "type": "mech",
+   "speed": 1.6,
+   "boostMultiplier": 1.4,
+   "canBoost": true,
+   "mineFloor": true,
+   "mineWalls": true,
+   "mineSpeed": 2,
+   "buildSpeed": 2,
+   "itemCapacity": 100,
+   "weapons": [
+    {
+     "name": "maor-arti",
+     "reload": 60,
+     "shootSound": "artillery",
+     "bullet": {
+      "damage": 10,
+      "lifetime": 60,
+      "splashDamage": 5,
+      "splashDamageRadius": 15,
+      "speed": 1.6,
+      "type": "artilleryBulletType"
+     },
+     "type": "weapon"
+    },
+    {
+     "name": "maor-laser",
+     "reload": 40,
+     "shootSound": "laser",
+     "bullet": {
+      "damage": 10,
+      "width": 7.5,
+      "length": 50,
+      "lifetime": 40,
+      "type": "laserBulletType"
+     },
+     "type": "weapon"
+    }
+   ]
+}
